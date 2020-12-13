@@ -1,0 +1,790 @@
+@-webkit-keyframes title {
+	0%{position: absolute; top: 40%; filter: blur(0px); -webkit-filter: blur(0px)}
+
+	33%{ filter: blur(10px); -webkit-filter: blur(1px)}
+
+	50%{position: absolute; top: 38%; filter: blur(0px); -webkit-filter: blur(0px)}
+
+	66%{ filter: blur(10px); -webkit-filter: blur(1px)}
+
+	100%{position: absolute; top: 40%; filter: blur(0px); -webkit-filter: blur(0px)}
+}
+
+
+@-webkit-keyframes whaleshark {
+	0%{position: absolute; left: -60%; }
+
+	49%{position: absolute; left: 160%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 160%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -60%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes whaleshark-3 {
+	0%{position: absolute; left: -60%; bottom: 70%}
+
+	49%{position: absolute; left: 160%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 160%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -60%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish1 {
+	0%{position: absolute; left: -10%; top: 55%}
+
+	49%{position: absolute; left: 110%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 110%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -10%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish2 {
+	0%{position: absolute; left: -20%; top: 69%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish3 {
+	0%{position: absolute; left: 120%; top: 20%}
+
+	49%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish4 {
+	0%{position: absolute; left: 120%; top: 25%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish5 {
+	0%{position: absolute; left: 120%; top: 30%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish6 {
+	0%{position: absolute; left: 120%; top: 80%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish7 {
+	0%{position: absolute; left: -20%; top: 40%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish8 {
+	0%{position: absolute; left: 120%; top: 10%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish9 {
+	0%{position: absolute; left: -20%; top: 80%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes jellyfish1 {
+	0%{position: absolute; bottom: -5%; right: 10%;}
+
+	100%{position: absolute; bottom: 105%;}
+}
+
+@-webkit-keyframes jellyfish2 {
+	0%{position: absolute; bottom: -15%; right: 5%;}
+
+	50%{position: absolute; bottom: 55%;}
+
+	100%{position: absolute; bottom: 105%;}
+}
+
+@-webkit-keyframes stingray {
+	0%{position: absolute; left: 120%; top: 90%}
+
+	49%{position: absolute; left: -40%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: -40%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes turtle {
+	0%{position: absolute; left: -20%; top: 80%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+
+
+@-webkit-keyframes whaleshark-2 {
+	0%{position: absolute; left: -60%; top: 30%;}
+
+	49%{position: absolute; left: 160%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 160%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -60%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish1-2 {
+	0%{position: absolute; left: -10%; top: 35%}
+
+	49%{position: absolute; left: 110%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 110%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -10%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish2-2 {
+	0%{position: absolute; left: -20%; top: 76%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish3-2 {
+	0%{position: absolute; left: 120%; top: 43%}
+
+	49%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish4-2 {
+	0%{position: absolute; left: 120%; top: 50%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish5-2 {
+	0%{position: absolute; left: 120%; top: 60%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish6-2 {
+	0%{position: absolute; left: 120%; top: 30%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish7-2 {
+	0%{position: absolute; left: -20%; top: 10%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish8-2 {
+	0%{position: absolute; left: 120%; top: 50%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish9-2 {
+	0%{position: absolute; left: -20%; top: 20%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish9-3 {
+	0%{position: absolute; left: -20%; top: 50%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish9-4 {
+	0%{position: absolute; left: -20%; top: 28%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+
+
+@-webkit-keyframes stingray-2 {
+	0%{position: absolute; left: 120%; top: 40%}
+
+	49%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes turtle-2 {
+	0%{position: absolute; left: -20%; top: 60%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+
+@-webkit-keyframes fish1-3 {
+	0%{position: absolute; left: -10%; top: 55%}
+
+	49%{position: absolute; left: 110%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 110%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -10%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish2-3 {
+	0%{position: absolute; left: -20%; top: 69%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish3-3 {
+	0%{position: absolute; left: 120%; top: 20%}
+
+	49%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish4-3 {
+	0%{position: absolute; left: 120%; top: 25%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish5-3 {
+	0%{position: absolute; left: 120%; top: 30%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish6-3 {
+	0%{position: absolute; left: 120%; top: 80%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fish7-3 {
+	0%{position: absolute; left: -20%; top: 40%}
+
+	49%{position: absolute; left: 120%; transform: rotateY(0deg)}
+
+	51%{position: absolute; left: 120%; transform: rotateY(180deg)}
+
+	100%{position: absolute; left: -20%; transform: rotateY(180deg)}
+}
+
+@-webkit-keyframes fish8-3 {
+	0%{position: absolute; left: 120%; top: 10%; transform: rotateY(180deg)}
+
+	49%{position: absolute; left: -20%; transform: rotateY(180deg)}
+
+	51%{position: absolute; left: -20%; transform: rotateY(0deg)}
+
+	100%{position: absolute; left: 120%; transform: rotateY(0deg)}
+}
+
+
+.box1 {
+	animation-name: whaleshark;
+	animation-duration: 250s;
+	animation-iteration-count: infinite;
+}
+
+.box2 {
+	animation-name: fish1;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+}
+
+.box3 {
+	animation-name: fish2;
+	animation-duration: 150s;
+	animation-iteration-count: infinite;
+}
+
+.box4 {
+	animation-name: fish3;
+	animation-duration: 250s;
+	animation-iteration-count: infinite;
+}
+
+
+.box6 {
+	animation-name: fish4;
+	animation-duration: 180s;
+	animation-iteration-count: infinite;
+}
+
+.box7 {
+	animation-name: fish5;
+	animation-duration: 160s;
+	animation-iteration-count: infinite;
+}
+
+.box8 {
+	animation-name: fish6;
+	animation-duration: 170s;
+	animation-iteration-count: infinite;
+}
+
+.box9 {
+	animation-name: fish7;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+}
+
+.box10 {
+	animation-name: fish8;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+}
+
+.box11 {
+	animation-name: fish9;
+	animation-duration: 210s;
+	animation-iteration-count: infinite;
+}
+
+
+
+.box14 {
+	animation-name: stingray;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+}
+
+.box15 {
+	animation-name: turtle;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+}
+
+.box1-2 {
+	animation-name: whaleshark-2;
+	animation-duration: 310s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box2-2 {
+	animation-name: fish1-2;
+	animation-duration: 193s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box3-2 {
+	animation-name: fish2-2;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box4-2 {
+	animation-name: fish3-2;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+
+.box6-2 {
+	animation-name: fish4-2;
+	animation-duration: 210s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box7-2 {
+	animation-name: fish5-2;
+	animation-duration: 180s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box8-2 {
+	animation-name: fish6-2;
+	animation-duration: 190s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box9-2 {
+	animation-name: fish7-2;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box10-2 {
+	animation-name: fish8-2;
+	animation-duration: 230s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box11-2 {
+	animation-name: fish9-2;
+	animation-duration: 250s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+
+.box14-2 {
+	animation-name: stingray-2;
+	animation-duration: 300s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box15-2 {
+	animation-name: turtle-2;
+	animation-duration: 300s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+.box11-3 {
+	animation-name: fish9-3;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 15s;
+}
+
+.box11-4 {
+	animation-name: fish9-4;
+	animation-duration: 300s;
+	animation-iteration-count: infinite;
+	animation-delay: 20s;
+}
+
+
+.box2-3 {
+	animation-name: fish1-3;
+	animation-duration: 193s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box3-3 {
+	animation-name: fish2-3;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box4-3 {
+	animation-name: fish3-3;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+
+.box6-3 {
+	animation-name: fish4-3;
+	animation-duration: 210s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box7-3 {
+	animation-name: fish5-3;
+	animation-duration: 180s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box8-3 {
+	animation-name: fish6-3;
+	animation-duration: 190s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box9-3 {
+	animation-name: fish7-3;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box10-3 {
+	animation-name: fish8-3;
+	animation-duration: 230s;
+	animation-iteration-count: infinite;
+	animation-delay: 40s;
+}
+
+.box1-3 {
+	animation-name: whaleshark-3;
+	animation-duration: 350s;
+	animation-iteration-count: infinite;
+	animation-delay: 43s;
+}
+
+.boxtt {
+	animation-name: title;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+
+:hover{
+	animation-play-state: paused;
+}
+
+
+.box1:hover{
+	animation-play-state: paused;
+}
+
+.box2:hover{
+	animation-play-state: paused;
+}
+
+.box3:hover{
+	animation-play-state: paused;
+}
+
+.box4:hover{
+	animation-play-state: paused;
+}
+
+
+.box6:hover{
+	animation-play-state: paused;
+}
+
+.box7:hover{
+	animation-play-state: paused;
+}
+
+.box8:hover{
+	animation-play-state: paused;
+}
+
+.box9:hover{
+	animation-play-state: paused;
+}
+
+.box10:hover{
+	animation-play-state: paused;
+}
+
+.box11:hover{
+	animation-play-state: paused;
+}
+
+
+
+.box14:hover{
+	animation-play-state: paused;
+}
+
+.box15:hover{
+	animation-play-state: paused;
+}
+
+.box1-2:hover{
+	animation-play-state: paused;
+}
+
+.box2-2:hover{
+	animation-play-state: paused;
+}
+
+.box3-2:hover{
+	animation-play-state: paused;
+}
+
+.box4-2:hover{
+	animation-play-state: paused;
+}
+
+
+.box6-2:hover{
+	animation-play-state: paused;
+}
+
+.box7-2:hover{
+	animation-play-state: paused;
+}
+
+.box8-2:hover{
+	animation-play-state: paused;
+}
+
+.box9-2:hover{
+	animation-play-state: paused;
+}
+
+.box10-2:hover{
+	animation-play-state: paused;
+}
+
+.box11-2:hover{
+	animation-play-state: paused;
+}
+
+
+.box14-2:hover{
+	animation-play-state: paused;
+}
+
+.box15-2:hover{
+	animation-play-state: paused;
+}
+
+.box11-3:hover{
+	animation-play-state: paused;
+}
+
+.box11-4:hover{
+	animation-play-state: paused;
+}
+
+
+.box2-3:hover{
+	animation-play-state: paused;
+}
+
+.box3-3:hover{
+	animation-play-state: paused;
+}
+
+.box4-3:hover{
+	animation-play-state: paused;
+}
+
+
+.box6-3:hover{
+	animation-play-state: paused;
+}
+
+.box7-3:hover{
+	animation-play-state: paused;
+}
+
+.box8-3:hover{
+	animation-play-state: paused;
+}
+
+.box9-3:hover{
+	animation-play-state: paused;
+}
+
+.box10-3:hover{
+	animation-play-state: paused;
+}
+
+.box1-3:hover{
+	animation-play-state: paused;
+}
+
+.boxtt {
+	animation-name: title;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+
+ filter: blur(10px); -webkit-filter: blur(2px)
